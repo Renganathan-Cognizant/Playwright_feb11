@@ -1,0 +1,8 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="14.83643">
+<testsuite name="Reports\reportDemo.spec.ts" timestamp="2026-03-13T06:42:13.507Z" hostname="chromium" tests="2" failures="0" skipped="0" time="8.957" errors="0">
+<testcase name="radiobutton" classname="Reports\reportDemo.spec.ts" time="5.013">
+</testcase>
+<testcase name="Basic Assertions" classname="Reports\reportDemo.spec.ts" time="3.944">
+</testcase>
+</testsuite>
+</testsuites>
