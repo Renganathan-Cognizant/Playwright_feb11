@@ -11,3 +11,9 @@ test('Basic Assertions', async ({page})=>{
     await expect(page).toHaveURL("https://testautomationpractice.blogspot.com") //hard assertion -
     await expect.soft(page).toHaveTitle("Automation Testing Practice")
 })
+
+test("shadow DOM", async ({page}) => {
+
+    await page.goto ('https://books-pwakit.appspot.com/')
+    await page.locator('#input').fill('testing books')
+})
